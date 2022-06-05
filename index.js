@@ -8,7 +8,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // ...
 const sorter = ;(names, operator)=>{
   const operatorResult = operator(names);
-  cons result = [];
+  const result = [];
   for (let i = 0; i < operatorResult.length; i++) {
     result.push(`${i + 1}.${operatorResult[i]}`);
   }
