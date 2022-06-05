@@ -6,7 +6,7 @@ const names = ["Halo", "Angel", "Nyoman", "Ketut", "Aisyah"];
 // "1. Nama"
 // "2. Nama"
 // ...
-const sorter = ;(names, operator)=>{
+const sorter = ;(names, operator) => {
   const operatorResult = operator(names);
   const result = [];
   for (let i = 0; i < operatorResult.length; i++) {
@@ -23,7 +23,8 @@ const sortAscending = names => {
 
 // TODO: Fungsi untuk mengurutkan array of string secara descending
 // mengembalikan array yang sudah diurutkan
-const sortDescending = names.reserve();
+const sortDescending = (names) => {
+  return names.reverse();
 }
 
 // ! JANGAN DIMODIFIKASI
